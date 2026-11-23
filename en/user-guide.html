@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NoteRecord User Guide</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+  :root { --zemin:#ffffff; --yazi:#12213a; --soluk:#55627a; --vurgu:#013678; --cizgi:#dde6f2; --kutu:#eef5fc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --zemin:#0f1724; --yazi:#e8eef7; --soluk:#9fb0c8; --vurgu:#6cc4ee; --cizgi:#243246; --kutu:#182335; }
+  }
+  body { margin:0; background:var(--zemin); color:var(--yazi);
+         font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-size:1.3rem; margin:40px 0 8px; color:var(--vurgu); }
+  h3 { font-size:1.05rem; margin:24px 0 6px; }
+  .tarih { color:var(--soluk); margin:0 0 24px; }
+  ul, ol { padding-inline-start:1.3em; }
+  .kutu { background:var(--kutu); border-radius:12px; padding:12px 16px; margin:16px 0; }
+  .tablo { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; margin:12px 0; }
+  th, td { border:1px solid var(--cizgi); padding:8px 10px; text-align:start; vertical-align:top; }
+  th { background:var(--kutu); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>NoteRecord User Guide</h1>
+<p class="tarih">Languages, translation and offline use · Updated: 14 November 2026</p>
+
+<h2>Privacy first</h2>
+<p>NoteRecord does not record audio; it never creates or stores an audio file. Your notes, lists and settings are stored only on your phone; there is no account, no sign-up and no NoteRecord server. Only you create a backup file, and you decide where it goes. To be upfront: your speech is turned into text by your phone’s speech recognition service (usually Google), which may process the audio; the free version shows ads through Google AdMob, and there are no ads with a Supporter pack. Details are in the privacy policy.</p>
+
+<h2>First use</h2>
+<p>The first time you open NoteRecord, a welcome window gives you 20 free usage credits (details: <em>Usage credits and the Supporter pack</em>). On the home screen tap the microphone, say something like “Add milk and bread to my shopping list” or “Dentist appointment tomorrow at 10”, then stop. Before the microphone is first used, the app explains speech recognition and asks for the microphone permission. The menu is under the <strong>⋮</strong> icon; <strong>Help and documents</strong> opens from there.</p>
+
+<h2>App language</h2>
+<ul>
+  <li><strong>The app interface is available in Turkish and English only.</strong> <strong>⋮ → Settings → App language</strong> offers three choices: <strong>Phone language</strong>, <strong>Türkçe</strong> and <strong>English</strong>. If your phone is set to Turkish the app opens in Turkish; otherwise (whatever country you are in) it opens in English. If the phone’s language cannot be determined, Turkey and Azerbaijan get Turkish.</li>
+  <li><strong>Getting back to your language:</strong> if you changed the language, tap the <strong>🌐 globe icon</strong> at the top of the main screen. The <strong>Phone language</strong> line at the top of the list returns the app to the phone’s language. After a change, an <strong>Undo</strong> notice in the previous language also appears for 10 seconds.</li>
+  <li>All menus, descriptions, notifications and <strong>spoken replies</strong> appear and are read in the chosen language, and the microphone listens in that language.</li>
+  <li><strong>Voice commands</strong> (notes, shopping lists, calendar, calling by voice, “Take a note” / “Create an appointment”) are recognized in <strong>Turkish and English only</strong>. Examples: “Add milk, eggs and bread to my shopping list”, “Dentist appointment tomorrow at 3 pm”, “Market alışverişine süt ve ekmek ekle”, “Yarın saat 3’te diş randevusu”.</li>
+  <li><strong>Three separate things:</strong> (1) <em>Interface language</em>: menus and spoken replies, Turkish or English. (2) <em>Translation languages</em>: two-way conversation (translation) and live note-taking work in 8 languages (Turkish, English, German, French, Spanish, Italian, Arabic, Russian); whatever the app language, you can speak any of these. (3) <em>Emergency words</em>: when the feature is on they are recognized in 8 languages (see “Emergency” below). <strong>Translation quality:</strong> translations are made by Google ML Kit’s on-device translation engine; they give the approximate meaning and are not perfect. Check important texts.</li>
+  <li>Voice settings only list voices in the chosen language. If there is none, you can download one in the phone’s text-to-speech settings.</li>
+  <li><strong>Dark theme:</strong> if your phone uses dark theme, the app switches to it automatically. Text size follows your phone’s setting, and the screen reader (TalkBack) reads the buttons aloud.</li>
+</ul>
+
+<h2>Adding to a shopping list by voice</h2>
+<ul>
+  <li><strong>With the list name:</strong> “Add milk, eggs and bread to my shopping list” — if no list with that name exists it is created; otherwise the items are added to it.</li>
+  <li><strong>Without a list name:</strong> “Add 6 power outlets”, “Add milk and 2 kg tomatoes” — the items go to the <strong>shopping list you used last</strong>. If there is no list yet, what you said is saved as a note.</li>
+  <li>“More”, “another” and “one more” are not part of items: “add 2 more eggs” → <strong>2 eggs</strong>. “Again”, “additional” and “extra” before a number (“extra 2 eggs”) are dropped too; “extra virgin olive oil” stays one item.</li>
+  <li>Separate items with “and” or a short pause (commas). Quantities start a new item: “Shopping list 2 kg tomatoes 3 eggs”.</li>
+  <li>If an item that was already bought and ticked is requested again, no new line is added; it is marked “to buy” again.</li>
+  <li>You can also say the items first and the list name last: “1 kilo of meat, 2 kilos of sugar to the groceries list”. Words like “add” are not added as items, and units such as “kilo” or “pack” stay with their item.</li>
+  <li><strong>If the list sentence also contains a day or time</strong> (“Tomorrow buy two bags of charcoal and a lighter from the market.”), the list is created first. Then the app asks “Shall I also add a calendar reminder for …?” If you choose <strong>Yes, add it</strong>, a “Shopping” reminder is added; the items are written in the reminder’s note, and the time is 09:00 if none was said. The result message tells you that both the list and the reminder were created. With <strong>No, list only</strong> only the list is kept. In total 1 credit is used.</li>
+  <li>“Buy/get … from/at the market/store/shop” is now a shopping list even without a date.</li>
+</ul>
+
+<h2>Calendar by voice</h2>
+<ul>
+  <li>Say the event with a date or time: “Dentist appointment tomorrow at 3 pm”, “Meeting with John next Friday at 10:30”, “Remind me to call mom in 3 days”, “Add haircut to calendar on March 15 at 2 pm”.</li>
+  <li>Understood: today, tomorrow, the day after tomorrow, weekdays, “next Friday”, “next week”, “in 3 days / in 2 weeks”, “in 20 minutes / in 2 hours / in half an hour” (exactly that much later), dates like “March 15”, times like “10:30”, “3 pm”, “at 9”.</li>
+  <li>A reminder is shown the set time before (default 15 minutes); change it in <strong>⋮ → Settings → General settings</strong>. From the calendar you can also add the appointment to the phone’s own calendar.</li>
+  <li>The <strong>items</strong> of a shopping reminder appear under the title on the home screen card and in the calendar. On a small screen or with large text, scroll the calendar page up to reach your appointments. When you tap <strong>Add to phone calendar</strong>, the same details are also written into the event’s description in the phone calendar.</li>
+  <li><strong>Vague phrases do not make an appointment:</strong> sentences with vague phrases such as “one day”, “some day” or “one of these days”, and sentences longer than 25 words that contain no time, date or calendar word, become a <strong>note</strong>, not an appointment.</li>
+  <li>Write times with “am/pm” or the 24-hour clock to be sure: “tomorrow at 3 pm” is <strong>15:00</strong>.</li>
+  <li><strong>Repeating appointments:</strong> add “every day / daily / every morning / every evening / every night”, “every week / weekly / every Monday…”, “every month / monthly / the 5th of every month” or “every year / yearly” to your sentence and the appointment repeats. Example: “Every Monday at 10 meeting”.
+    <ul>
+      <li>It starts on the first suitable future day at the time you said (if you give no time, the time set in General settings, default 09:00).</li>
+      <li>In the calendar it appears on every suitable day with an <strong>Every day</strong>, <strong>Every week</strong>, <strong>Every month</strong> or <strong>Every year</strong> label; the reminder comes the set time before each time (default 15 minutes). The home screen card subtitle reads “Calendar · Every day · first date”.</li>
+      <li>An “every day…” sentence with no time becomes a note unless you say “calendar” or “remind”.</li>
+      <li>Say the day of the month as a number (“the 5th of every month”). If you pick the 31st, the appointment does not show in months without a 31st.</li>
+      <li>Deleting a repeating appointment deletes all its repeats; a single day cannot be deleted.</li>
+      <li><strong>Add to phone calendar</strong> also adds it as repeating. The manual <strong>Add appointment</strong> dialog has no repeat option.</li>
+    </ul>
+  </li>
+  <li>For reminders to arrive on time even when the app is closed, turn on the <strong>Alarms &amp; reminders</strong> permission that opens with your first appointment. On Samsung phones also choose <strong>Settings → Apps → NoteRecord → Battery → Unrestricted</strong>. The reminder plays the phone’s short notification sound once.</li>
+</ul>
+
+<h2>Home screen microphone widget</h2>
+<ul>
+  <li><strong>Adding it:</strong> use <strong>⋮ → Settings → Add microphone to Home screen</strong>, or place the NoteRecord microphone from your phone’s widget list by hand.</li>
+  <li><strong>Using it:</strong> tapping the widget opens the app and listening starts right away.</li>
+  <li><strong>If another screen is open</strong> (e.g. Two-way conversation), that screen is not closed and listening does not start; a message appears: “Listening starts from the main screen. Close this screen and tap the microphone again.”</li>
+  <li><strong>If your credits have run out</strong>, you get the same warning as when you tap the microphone button.</li>
+</ul>
+
+<h2>Lists, the calendar screen and sharing</h2>
+<ul>
+  <li><strong>Lists:</strong> Tap a list on the home screen. Tick items as bought and type new ones in the <strong>Add item...</strong> field at the bottom. If you delete an item with X or by swiping left, <strong>Undo</strong> is shown for 5 seconds and puts it back in the same place. The broom icon (<strong>Clear bought items</strong>) removes ticked items from the list; the <strong>Share (WhatsApp etc.)</strong> icon shares the list as a checklist text.</li>
+  <li><strong>Calendar:</strong> The calendar icon in the home screen's top bar (<strong>NoteRecord calendar</strong>) shows appointments day by day. Choose the <strong>Week</strong>, <strong>2 Weeks</strong> or <strong>Month</strong> view. <strong>Add appointment</strong> creates one by hand; every appointment has <strong>Add to phone calendar</strong> and share buttons. Appointments in the past are marked <strong>Past appointment</strong>.</li>
+  <li><strong>Adding something shared with you:</strong> When a list or note is shared from another app (e.g. WhatsApp), pick the NoteRecord entry in the share menu (it is labelled “Add to NoteRecord”). Or copy the message and tap <strong>⋮ → Notes and backup → Add copied list</strong> in NoteRecord. What will be added (a new list, items for an existing list, an appointment or a note) is shown and you are asked <strong>Add to NoteRecord?</strong>; tap <strong>Add</strong> to add it or <strong>Cancel</strong> to drop it.</li>
+  <li><strong>Returning to the ⋮ menu:</strong> When you go back from a screen opened from the ⋮ menu, the menu opens again: the sub-menu (e.g. Settings) if you came from there, otherwise the main menu. Returning from live notes or conversation does not reopen the menu; the new note is shown in the list.</li>
+  <li><strong>Note Flight game:</strong> <strong>Note Flight game</strong> in the ⋮ menu is a small game; tap the screen to fly the note between the pencils. It uses no credits.</li>
+  <li><strong>Help and documents:</strong> <strong>Help and documents</strong> in the ⋮ menu opens this user guide and the privacy policy. The app version is shown at the very bottom of the screen (e.g. “Version 1.0.0 (34)”).</li>
+</ul>
+
+<h2>Saying the command explicitly: “Take a note”, “Create an appointment”</h2>
+<p>The app works out what you want from what you say. If a sentence is misunderstood, start with the command: <strong>“Take a note: buy flowers for Mum”</strong> always becomes a note, <strong>“Create an appointment: Friday at 2 pm hairdresser”</strong> always goes to the calendar. If you don’t say the command, everything works as before.</p>
+<ul>
+  <li><strong>Note phrases (English):</strong> “Take a note”, “Make a note”, “Note down”, “Note”. <strong>Turkish:</strong> “Not al”, “Not et”, “Not yaz”, “Not olarak kaydet”.</li>
+  <li><strong>Appointment phrases (English):</strong> “Create an appointment”, “Add an appointment”, “Make an appointment”, “Schedule”. <strong>Turkish:</strong> “Randevu oluştur”, “Randevu ekle”, “Randevu kaydet”, “Randevu kur”.</li>
+</ul>
+
+<h2>Calling by voice (from contacts)</h2>
+<ul>
+  <li>Tap the microphone and say the person’s name as saved in your contacts: “Call John”, “Phone Mary”, “Ring Sarah Miller”, “Dial Tom”. Calling by voice works in English and Turkish only (Turkish: “… ara”). The contact is found whichever language the name is written in; if a Turkish name is spoken in English, you are asked “Should I call this person?” before anything is dialled.</li>
+  <li>The person’s <strong>photo</strong> (or initials), name and number appear on the screen, and the call starts by itself after 3 seconds. If it’s the wrong person, tap <strong>Cancel</strong>; to call right away, tap <strong>Call</strong>.</li>
+  <li>If several contacts have the same name, you’re asked which one to call; if the person has several numbers, you choose the number.</li>
+  <li>The first time, the app asks for the contacts and phone call permissions. Your contacts are read only on your phone and never sent anywhere. If you don’t allow phone calls, the number opens in your phone’s dialer. If the name isn’t in your contacts, you’ll hear “… was not found in your contacts”; nothing is saved as a note and no credit is used. Even if speech recognition spells a name differently (for example a name from another language), a contact that sounds similar is found; if the app isn’t sure, it doesn’t call by itself but asks “Should I call this person?”. Each call uses one credit.</li>
+</ul>
+
+<h2>Emergency (calling for help)</h2>
+<ul>
+  <li>This feature is <strong>OFF</strong> at first. Read the points below and, once you understand them, turn it on in <strong>⋮ → Settings → Emergency</strong>; while it is on, a red <strong>ON</strong> label is shown, and you can turn it off again at any time. While it is off, saying “Help” is saved as a normal note.</li>
+  <li>On the main screen, tap the microphone and say “Help”, “Emergency”, “Ambulance”, “Police”, “Fire” or “I fell and I can’t get up”. Emergency words are recognized in <strong>8 languages</strong> whatever the app language (for example “İmdat”, “Hilfe”, “Au secours”, “Socorro”, “Aiuto”, “النجدة”, “Помогите”), because a guest or tourist using the phone may ask for help in their own language. You don’t need to tap stop; the emergency screen opens by itself. It works even when you have no credits left and uses no credit.</li>
+  <li>When you turn the emergency feature <strong>ON</strong> (after the confirmation and the microphone note), permissions are requested right away: first <strong>location</strong>, then <strong>phone call</strong>; each is first explained in a short window. If call permission is granted, your emergency contact is called in an emergency without any key press; if not, the phone’s call screen opens and you must tap the <strong>green button</strong>. On <strong>⋮ → Settings → Emergency</strong> a line shows the call permission status (“Call permission granted” / “No call permission”); if it is missing, the <strong>Allow</strong> button lets you grant it later.</li>
+  <li>A <strong>15-second countdown</strong> starts on the red screen. If you said it by mistake, tap anywhere on the screen to cancel.</li>
+  <li>When the time is up (or when you tap <strong>Call now</strong>), <strong>your chosen emergency contact is called automatically first</strong>; you don’t need to touch the screen. If you haven’t chosen a contact, the emergency number comes next.</li>
+  <li>When that call ends, a <strong>second 15-second countdown</strong> starts; while the phone is still ringing or the call is going on, the countdown waits until the call ends; if another screen (call log, contacts) is in front when the call ends, the countdown starts when you return to NoteRecord. The announcement says “If your contact reached you, or it was a false alarm, tap the screen so the emergency number is not called”; if you tap, it is not called. If you don’t, your phone’s call screen opens with the emergency number of the country you are in (for example 911 in the US, 112 in Europe); you are told to press the green button; tap the <strong>green button</strong> to call. Android does not let apps call emergency numbers by themselves and does not tell apps whether the other side answered. Then a message with your location opens ready in your SMS app; you are reminded by voice and on screen (“Your location message is ready. Tap Send…”), and you tap send yourself. Under Google Play rules the app cannot send the SMS by itself. When you return to NoteRecord from the message screen, the emergency screen closes and you are back on the home screen. If no emergency contact is chosen, there is no location message step. In the announcements the emergency number is read digit by digit (“nine one one”, “one one two”).</li>
+  <li>Your location (latitude, longitude and address) is shown in large text so you can read it to the operator. If location is off, a <strong>Turn on location</strong> button appears; if no location can be found, your saved home address is shown. In an emergency call made from the phone’s own call screen, the phone itself sends your location to the emergency service where your country supports it.</li>
+  <li><strong>⋮ → Settings → Emergency</strong>: choose your emergency contact, enter your home address and use <strong>Test the emergency call</strong> to try everything without calling any number.</li>
+  <li>The first time you turn the emergency feature on, a short note about speech recognition appears so that a real emergency is not delayed later (see “Microphone and speech recognition” below). Your close contact and home address are not part of Google's automatic backup; enter them again on a new phone (see “Backing up your notes”).</li>
+  <li>Your phone also has its own Emergency SOS: press the power button 5 times quickly; it works even when the phone is locked. You can turn it on for a fully automatic emergency call (on Samsung: <strong>Settings → Safety and emergency → Emergency SOS</strong>; press the side key 5 times). The emergency settings screen also has a note explaining these limits. NoteRecord does not replace official emergency services.</li>
+</ul>
+
+<h2>Finding notes: search, filter and sort</h2>
+<ul>
+  <li><strong>Long notes:</strong> as you keep speaking, the text box on the home screen stops growing; a scrollbar appears and your latest words stay visible. The microphone/stop button stays in place.</li>
+  <li><strong>Opening a note and reading it aloud:</strong> tap a note; the window that opens has <strong>Read aloud</strong>, <strong>Copy</strong>, <strong>Share</strong> and <strong>Edit</strong> buttons in that order (live note records and old live translation records also have <strong>Save as PDF</strong> next to Share; in translation records <strong>Read aloud</strong> reads the translation in its own language and <strong>Copy</strong> copies the translation; live note recordings then continue with <strong>Clean up</strong> and <strong>Clean up and summarize</strong>). While it is reading, the button becomes <strong>Stop reading</strong>; tap it to stop at once. Closing the window also stops reading. Live note recordings open in the same window.</li>
+  <li><strong>Search:</strong> tap 🔍 in the top bar and type a word. Titles, list items and both sides of translations are searched; upper/lower case does not matter. The back arrow closes the search.</li>
+  <li><strong>Filter:</strong> use the <strong>All · Notes · Live notes · Lists · Appointments · Translations · Conversations</strong> buttons below the status box to see only that type. Each button shows how many entries it has; types with no entries are shown too. Only <strong>Translations</strong> appears just while old live translation records exist; if you delete the last one, it disappears once you switch filters or reopen the app. If the strip continues, a ‹ › arrow appears at its edge; tap the arrow or swipe to see the other types.</li>
+  <li><strong>Sort:</strong> with the sorting option in <strong>⋮ → Settings</strong> choose whether the newest note appears <strong>right above the microphone</strong> (default) or <strong>at the top of the list</strong>. Your choice is remembered.</li>
+  <li>When you add a note the list scrolls to it and it is highlighted for a few seconds. If a filter or search would hide it, the filter is cleared.</li>
+  <li>Each note shows its type underneath: <strong>Voice note</strong>, <strong>Live note-taking</strong>, <strong>Live translation (TR → EN)</strong> (old records only), <strong>Two-way conversation (TR → EN)</strong>, <strong>Shopping list · 0 / 3 bought</strong>, <strong>Calendar · Tuesday 20 October 15:00</strong>.</li>
+  <li>When you delete a note with the bin icon, <strong>Undo</strong> appears at the bottom; tap it within 5 seconds to bring the note back (with its reminder, if it is an appointment).</li>
+</ul>
+
+<h2>Old live translation records</h2>
+<p>The live translation feature has been removed from the app; use <strong>Conversation</strong> for translation. Live translation records saved earlier are not deleted: they still appear under the <strong>Translations</strong> filter on the home screen, can be opened and shared, and can be turned into a PDF with <strong>Save as PDF</strong>. If you delete all of them, the <strong>Translations</strong> button goes away too.</p>
+
+<h2>Live note-taking (meetings / lessons)</h2>
+<ol>
+  <li>Open <strong>⋮ → Recording & conversation → Live note-taking</strong>.</li>
+  <li>Choose the spoken language in the <strong>Speech language</strong> box at the top (your choice is remembered).</li>
+  <li>Tap the microphone. What is said is written down sentence by sentence in that language, without translation.</li>
+  <li>Tap stop when done; everything is saved as one voice note and can be shared.</li>
+  <li><strong>Automatic punctuation:</strong> Voice notes on the home screen are punctuated with the same rules. Every finished sentence starts with a capital letter and ends with a full stop. In Turkish, a sentence ending in a question particle (mi, mı, mu, mü, “mısınız” etc.) gets a “?”; in English, a sentence starting with words like what, how, do or is gets a “?”. In Turkish, a long line is split with a full stop at strong sentence-ending verbs such as “gerekmektedir”, “alınmıştır”, “geliyor” or “gitti”, after words such as “gerekir” or “sorulur”, and before sentence-starting words such as “kısacası”, “acaba” or “bu yüzden”. A full stop is also added before words such as “peki” and “örneğin”. Sentences with question words such as “ne zaman”, “nasıl” or “neden” get a “?”. A comma is added before “ancak”, “fakat”, “ama” and “çünkü”; adjectives such as “inanılmaz bir” do not end a sentence. Verbs that speech recognition capitalises mid-sentence (“Tanıyor”) are lowercased. In English, a comma is added before “but” and “so”, a full stop goes before words such as “also”, “for example”, “honestly” and “in short”, followed by a comma (“Also, it is…”), and “however” gets commas around it. In German (following Duden and the official rules), a comma goes before words such as aber, sondern, dass, weil, ob and wenn and before “um/ohne … zu”; a sentence starting with a question word or a verb gets a “?”. In Russian (official rules, gramota.ru), a comma goes before а, но, что, чтобы, если, когда, который, потому что and так как; a sentence starting with a question word, or whose second word is “ли”, gets a “?”. In French (OQLF), a comma goes before mais, car and cependant; a sentence starting with a question word, “est-ce que” or an inverted verb (“viens-tu”) gets a “?”. In Arabic, “،” is added after a vocative (“يا أحمد،”), “نعم” and “والله”; a sentence starting with هل, متى, كيف, لماذا and similar words gets “؟”. Based on test texts read aloud on the phone, long lines are also split into new sentences: in German before “nein”, before pronoun and verb pairs such as “ich glaube / wir müssen”, before direct questions such as “wann treffen wir” and verb-first questions such as “kannst du”; in French before “néanmoins” and “est-ce que”, before inverted questions and before “je pense”; in Russian before pronouns and question words that speech recognition capitalises (“Я думаю”). In Spanish (“¿…?”) and Italian no official source could be read, so only established usage is applied: a comma before “pero / ma” in long sentences, a full stop before “sin embargo / comunque”, and “creo que / penso che” starts a new sentence. In Arabic, “،” is added before “لكن”; “هل”, “نعم”, “يا” and “أعتقد” start a new sentence. This is a rule-based system: most commas are not added, and some sentence ends may be missed or placed wrongly; edit the note if needed.</li>
+  <li>The text stays on the screen. Open, read, share or delete earlier notes with the <strong>Saved notes</strong> (clock icon) button at the top.</li>
+  <li><strong>Distant voices:</strong> The phone’s speech recognition is tuned for speech close to the phone; speech from a TV or from across a meeting room may be hard to transcribe or not appear at all. Place the phone in the middle of the table with the screen facing up; keep speakers close; for best results use a wired or Bluetooth external microphone (Android uses it automatically). This tip is shown on screen before listening starts. For distant speakers across the table, you can choose <strong>General settings → Listening environment → Meeting room</strong>.</li>
+  <li><strong>Leaving the app:</strong> listening stops when you go to the home screen or switch to another app; what was transcribed so far is saved right away (see “Microphone and speech recognition”).</li>
+</ol>
+<h3>Clean up and summarize</h3>
+<p>Open a live note from the list on the home screen or from <strong>Saved notes</strong> on the live note screen. The window’s buttons are in this order: <strong>Read aloud</strong>, <strong>Copy</strong>, <strong>Share</strong>, <strong>Save as PDF</strong>, <strong>Edit</strong>, <strong>Clean up</strong>, <strong>Clean up and summarize</strong>.</p>
+<h3>Save as PDF</h3>
+<p>Only <strong>live note</strong> and old <strong>live translation</strong> records have a <strong>Save as PDF</strong> button when opened. The record becomes an A4 PDF with title, date and text; for translations the translation comes first, followed by the original text. Then the share menu opens: save to Files, upload to Drive, or send by e-mail or WhatsApp. The PDF is created on the phone; no internet or extra permission is needed.</p>
+<ul>
+  <li><strong>Clean up:</strong> filler words such as “um”, “uh”, “er”, “you know”, stutters (“I I I”), false starts corrected mid-word (“presen presentation” → “presentation”) and extra spaces are removed; sentences start with a capital letter, end with a full stop, and the text is split into paragraphs. In English recordings, words such as “So,”, “Well,” or “Basically,” followed by a comma at the start of a sentence are removed too.</li>
+  <li><strong>Clean up and summarize:</strong> additionally shows the 3–4 most important sentences as bullet points and 2 sentences under <strong>Conclusion</strong>. Notes of three sentences or fewer are not summarized.</li>
+  <li><strong>Cleaned copy:</strong> a copy saved with “Save as new note” shows “Cleaned up.” or “Cleaned up and summarized.” under the text. The copy has no Clean up buttons; read aloud, copy, share and edit are there.</li>
+  <li>No new sentences are written, the meaning is not changed and grammar is not corrected. This runs on the phone, the text never leaves the phone, and no credit is used.</li>
+  <li><strong>Save as new note</strong> makes a separate entry; the original recording stays as it was.</li>
+  <li>Translation records do not have these buttons.</li>
+</ul>
+
+<p>To translate what is said into another language, use <strong>Two-way conversation</strong>.</p>
+
+<h2>Two-way conversation</h2>
+<ol>
+  <li>Open <strong>Two-way conversation</strong> from <strong>⋮ → Recording & conversation</strong> and place the phone between two people.</li>
+  <li>The bottom half of the screen is yours, the top half (upside down) belongs to the other person. Each person picks their language in their own half.</li>
+  <li>The speaker taps their microphone and taps it again when finished. The words are translated into the other person’s language, written in their half and read aloud (turn off with 🔊).</li>
+  <li>Save the conversation as a note with 💾.</li>
+</ol>
+<p><strong>Translation quality:</strong> Translations are made by Google ML Kit’s on-device translation engine. They give the approximate meaning and are not perfect. Check important texts. Before translation, what is said is punctuated automatically as in live notes (e.g. “Hi, where is the nearest pharmacy?”); punctuated sentences translate better. Pause briefly between sentences. This note is also shown on the Two-way conversation screen before speaking starts.</p>
+<p>Available translation languages: Turkish, English, German, French, Spanish, Italian, Arabic, Russian.
+While the microphone is on the language boxes are locked; stop listening first to change a language.</p>
+
+<h2>Wrong language warning</h2>
+<p>In live note-taking and two-way conversation, the text becomes meaningless if people speak a language other than the selected one. When the app notices this, it shows a red warning: if it can tell the spoken language, a one-tap button such as <strong>“Switch to Turkish”</strong> appears and listening continues in that language; otherwise choose it from the list with <strong>Choose another language</strong>. In two-way conversation, if the wrong person’s microphone was pressed, the other microphone is opened; please say it again. The warning is a guess; if the right language is selected, close it with <strong>OK</strong>. Note: if English is selected and Turkish is spoken, the phone turns the words into English words, so this cannot always be noticed. That is why, when the listening language differs from the app language, a <strong>“Listening language: …”</strong> reminder appears the first time you press the microphone; one tap switches to the app language.</p>
+
+<h2>Language packs and offline translation</h2>
+
+<h3>Are the language packs included in the app?</h3>
+<p><strong>No.</strong> NoteRecord from Google Play contains the translation engine but not the language
+packs. Each phone downloads a language’s pack (about 30 MB) from Google <strong>once</strong>, the
+<strong>first time</strong> that language is used; internet is needed at that moment. The pack stays on that
+phone and later translations in that language work <strong>offline</strong>.</p>
+<ul>
+  <li>Packs downloaded by one user do not affect other users; everyone downloads the languages they need on their own phone.</li>
+  <li>If the app is uninstalled or its data is cleared in Android settings, the packs are deleted too.</li>
+  <li>The packs cannot be bundled into the app because Google’s translation engine does not allow it; even if it could, 9 translation languages would make the app about 270 MB larger.</li>
+</ul>
+
+<h3>Downloading languages in advance (before a trip)</h3>
+<ol>
+  <li>Open <strong>Language packs</strong> from <strong>⋮ → Recording & conversation</strong> (also from the download icon at the top of the Two-way conversation screen).</li>
+  <li>Tap the download icon next to a language, or <strong>Download all</strong>. The app asks first (“each about 30 MB; Wi-Fi recommended”); download on Wi-Fi when you can. Installed languages show ✓.</li>
+  <li>With <strong>Download over Wi-Fi only</strong> on, no mobile data is used; without Wi-Fi the download starts once you connect. Turning this option off asks you to confirm that mobile data will be used.</li>
+  <li>Delete languages you don’t use with the bin icon to free space. The English pack is part of the translation engine and cannot be deleted.</li>
+</ol>
+
+<h3>Three parts for fully offline use</h3>
+<div class="tablo">
+<table>
+  <tr><th>Part</th><th>What it does</th><th>To work offline</th></tr>
+  <tr><td><strong>Translation</strong></td><td>Translates the text</td><td>Download the language pack once in NoteRecord (Language packs screen)</td></tr>
+  <tr><td><strong>Speech recognition</strong></td><td>Turns speech into text</td><td>The phone’s <strong>offline speech pack</strong> must be downloaded separately, for example: <em>Google app → profile picture → Settings → Voice → Offline speech recognition → download the language</em>. If you can’t find it, search for “offline speech recognition” in Settings. This is a phone setting, not NoteRecord’s.</td></tr>
+  <tr><td><strong>Read aloud</strong></td><td>Reads the translation in a conversation</td><td>That language’s voice must be installed on the phone: search for “text-to-speech” in Settings.</td></tr>
+</table>
+</div>
+
+<div class="kutu">
+<strong>In short:</strong> downloading the translation pack alone is not enough. Turning speech into
+text also needs the phone’s offline speech pack. Prepare all three on Wi-Fi before a trip and
+NoteRecord works offline.
+</div>
+
+<h3>Testing offline use</h3>
+<ol>
+  <li>Put the phone in airplane mode (with Wi-Fi off too).</li>
+  <li>In Two-way conversation tap the microphone and say a few sentences.</li>
+  <li>If speech turns into text and is translated, everything is ready. No text means the speech pack is missing; text without translation means the translation pack is missing.</li>
+</ol>
+
+<h2>Speaking voice (Voice settings)</h2>
+<ul>
+  <li>NoteRecord’s spoken replies are read by the phone’s text-to-speech engine; the app has no fixed voice.</li>
+  <li>In <strong>⋮ → Settings → Voice settings</strong> choose among the voices installed on the phone <strong>in the app language</strong>, and adjust <strong>speech rate</strong> and <strong>pitch</strong>. A sample sentence (“Hello, milk and bread have been added to your Market shopping list.”) is read after every change; listen again with <strong>Try</strong>.</li>
+  <li>These settings only affect NoteRecord; the phone’s general text-to-speech settings do not change. <strong>Default</strong> returns to the phone’s voice.</li>
+  <li>If the phone’s speech engine has no voice for the app language, NoteRecord switches to the Google speech engine automatically when it is installed. If there is no voice at all, the reply is not read in a foreign voice; it stays as text on screen and a warning appears once. The <strong>Download {language} voice</strong> button in <strong>Menu → Voice settings</strong> (e.g. “Download English voice”) opens Android’s voice download screen.</li>
+  <li>The female/male icon can be changed by tapping it (the phone does not report a voice’s gender).</li>
+</ul>
+
+<h2>General settings</h2>
+<p><strong>Quick settings:</strong> Tap the sliders icon in the home screen’s top bar. The panel that opens from the bottom changes <strong>Listening environment</strong>, <strong>Meeting room voice boost</strong> (when Meeting room is selected), <strong>Voice replies</strong> and <strong>Reminder sound</strong> with one tap; <strong>General settings</strong> opens this screen and <strong>Close</strong> closes the panel. While meeting mode is on, the home screen shows a “Meeting mode on · Automatic” label; tap it to open the panel.</p>
+<p>The <strong>⋮ → Settings → General settings</strong> screen contains:</p>
+<ul>
+  <li><strong>Voice replies:</strong> <strong>On</strong> (default) reads the full sentence; <strong>Short</strong> says a short phrase such as “Saved.”; <strong>Off</strong> says nothing and the text stays on screen. Emergency, warnings (credits used up, no internet, etc.) and <strong>Read aloud</strong> are always spoken.</li>
+  <li><strong>Vibrate on save:</strong> when voice replies are Short or Off, the phone vibrates briefly after a note, list or appointment is saved (on by default).</li>
+  <li><strong>Appointment reminder:</strong> 5, 10, 15 (default), 30 or 60 min before. When you change it, the nearest 100 future appointments are rescheduled with the new time.</li>
+  <li><strong>Reminder sound:</strong> <strong>Notification sound (short)</strong> (default) or <strong>Alarm melody</strong> for 5, 10 or 15 s. The alarm melody plays at alarm volume and stops by itself when it ends; the notification stays on screen. The <strong>Silence</strong> button on the notification (also on the lock screen) stops the melody at once and closes the notification; tapping or swiping the notification, or pressing a volume or power key, also silences it at once (on Samsung the Silence button may take a few seconds). The alarm notification is also shown on the lock screen (with the appointment title); your phone’s “hide content” setting still applies. On Samsung phones, if the notification only shows as an edge light: Settings → Notifications → Notification pop-up style → <strong>Detailed</strong>. If the phone is in Do Not Disturb, it may not play, depending on your Android settings. When you change it, reminders for future appointments are rescheduled with the new sound.</li>
+  <li><strong>Appointment time when no time is said:</strong> choose between 07:00 and 12:00 (default 09:00). If you say today’s weekday without a time (e.g. “Monday finish the report” on Monday evening) and that hour has passed, the appointment goes to next week. If an appointment with the same title and time already exists, it is not added again; you are asked “Add it again?” and it is added only if you confirm.</li>
+  <li><strong>Theme:</strong> <strong>Same as phone</strong>, <strong>Light</strong> or <strong>Dark</strong>.</li>
+  <li><strong>Ask before deleting:</strong> on by default; a note, list or appointment is not deleted until you answer “Delete?”. If you turn it off, deleting happens at once and <strong>Undo</strong> appears for a short time. Deleting live note-taking and (old) live translation records is always confirmed.</li>
+  <li><strong>Remove checked items:</strong> off by default; when on, a list item you check is removed from the list and <strong>Undo</strong> is shown for 5 seconds.</li>
+  <li><strong>Backup reminder:</strong> every 7 days, every 30 days (default), every 90 days or <strong>Off</strong>.</li>
+  <li><strong>Listening environment:</strong> <strong>Close-up speech</strong> (default) or <strong>Meeting room</strong>. With Meeting room, Live notes boost the voice of speakers 2–3 m away across the table on the phone; a <strong>Meeting mode</strong> label and a sound level bar appear at the top. <strong>Meeting room voice boost</strong>: <strong>Automatic</strong> (recommended), 4x, 2x. The people icon in the top bar switches it on or off quickly; each tap on the <strong>Auto / 4x / 2x</strong> button next to it moves to the next boost level (also while listening). The home screen and Conversation mode don’t change. Requires Android 13 or later; if the phone doesn’t support it, the app falls back to normal listening and tells you once. On phones older than Android 13 the row is shown disabled in General settings with a tip below it: place the phone in the middle of the table, close to the speakers, make sure the case doesn’t cover the microphone, and tidy the note with <strong>Clean up</strong> after recording. TV or loudspeaker audio from a distance may not be transcribed; move the phone closer. If the level bar moves but nothing is written for 10 seconds, a short note below the bar explains this; it disappears when text arrives. When you stop, the app waits up to 2 seconds so the last word is written.</li>
+  <li><strong>Personal words:</strong> Add names, organizations and terms you use often (e.g. “Ayşe Kaya”, “Oktay Law”). If speech recognition misspells them or writes them in lower case, they are corrected in Live notes and Conversation; Turkish case endings are kept (“oktaya” → “Oktay’”). In translations these names stay unchanged. The list is stored only on the phone, up to 200 words, and is not included in the backup file.</li>
+  <li><strong>Names in translation:</strong> personal words are carried over unchanged, without being translated. If the translation engine garbles this, the text is translated without protection.</li>
+  <li><strong>Long speech:</strong> long unpunctuated speech is split before translation only at natural points (but, because, otherwise…); if there is none, the sentence is translated as a whole. Translations are joined with full stops and capital letters, and words repeated back to back are removed. In live note-taking the app adds the punctuation itself (see Automatic punctuation); in Turkish, Google speech recognition does not add punctuation on its own. In meeting mode (Android 13+) your phone’s speech recognition may add punctuation too, if it supports it. For better translations, pause briefly between sentences; on-device translation has limits with long, formal sentences.</li>
+</ul>
+
+<h2>Backing up your notes</h2>
+<ul>
+  <li><strong>Automatic:</strong> if Google backup is on on your phone, Android backs up your NoteRecord notes and other settings to your Google account and restores them on a new phone. <strong>Emergency details</strong> (close contact name and number, home address, and whether the emergency feature is on or off) are <strong>not included</strong> in this automatic backup or in phone-to-phone transfer. After moving to a new phone, enter your close contact and home address again in <strong>⋮ → Settings → Emergency</strong> (or restore them from a manual backup below).</li>
+  <li><strong>Manual:</strong> <strong>⋮ → Notes and backup → Export notes</strong> creates a backup file; send it to Google Drive or by email from the share menu. This file also contains your close contact's name and number and your home address (but never the on/off setting of the emergency feature), so send it only to places you trust.</li>
+  <li><strong>Restore:</strong> pick the file with <strong>⋮ → Notes and backup → Import notes</strong>. Only notes that aren’t on the phone yet are added; your existing notes are kept, and importing the same file twice doesn’t duplicate anything.</li>
+  <li>If the backup contains emergency details, a separate window (<strong>Emergency details</strong>) shows the close contact, number and home address and asks <strong>Use them?</strong> They are saved only if you tap <strong>Use</strong>; with <strong>Don't use</strong> nothing on the phone changes. If the phone number in the backup is not valid, it is not imported and you are told. A backup <strong>never turns the emergency feature on</strong>; it stays as it is, and you turn it on in <strong>Settings → Emergency</strong>.</li>
+  <li>For safety, a backup file can be at most <strong>5 MB</strong> and contain at most <strong>10,000 notes</strong>; otherwise a clear error is shown and nothing is imported.</li>
+  <li>On import, reminders are set for the nearest <strong>100</strong> upcoming or repeating appointments; the rest are added without reminders and a message says so.</li>
+</ul>
+
+<h2>Usage credits and the Supporter pack</h2>
+<ul>
+  <li>When you first install the app, you get <strong>20 free credits</strong> as a gift.</li>
+  <li>Each voice command uses one credit. When credits run out, <strong>Earn Credits</strong> gives 5 credits for watching a short ad.</li>
+  <li>In live note-taking and two-way conversation, <strong>each saved conversation</strong> also uses one credit. When credits run out, new listening does not start; a recording already in progress is still saved.</li>
+  <li><strong>⋮ → Become a supporter</strong> offers <strong>6-month, 1-year, 2-year and 3-year</strong> packs: unlimited use without a credit counter or ads for the chosen period. Each is a one-time payment and <strong>does not renew automatically</strong>. Buy a new pack before yours ends and the time is added on.</li>
+  <li>After changing phones or reinstalling, tap <strong>Restore purchases</strong> with the same Google account. If you are a Supporter and reinstall the app, the welcome gift window and the ad consent form are not shown.</li>
+  <li>Payments are handled by Google Play; refunds and receipts are managed in your Google Play account.</li>
+</ul>
+
+<h2>Microphone and speech recognition</h2>
+<ul>
+  <li>The microphone listens only while the app is on screen. If you go to the home screen or switch apps, listening stops at once and the microphone is released. What you said so far is kept: it is processed as if you tapped stop when you return (live notes save it right away). If nothing was said, you see “Listening stopped because you left the app.” Pulling down the notification shade does not stop listening. In two-way conversation the speaker's listening also stops; the text is written and translated but not read aloud at that moment.</li>
+  <li><strong>The screen stays on in long meetings:</strong> while Live notes are listening, and while the Conversation screen is open, the phone does not dim or lock by itself. After 1 minute without touch, the screen dims in this app only; touching it restores the brightness. A short note at the top explains this while listening. <strong>Pressing the power button</strong> turns the screen off and stops the recording. When listening ends, the phone goes back to normal; your phone settings are not changed.</li>
+  <li>Before you first use the microphone (and when you first turn the emergency feature on), a one-time <strong>About speech recognition</strong> window appears: what you say is turned into text by your phone's speech recognition service (Google), which may process the audio online. NoteRecord does not store any audio.</li>
+  <li>If a <strong>listening error</strong> appears, the message tells you the cause: no internet, language not recognized, no microphone permission, another app is using the microphone, or the recognition service didn’t work. If the language is not recognized, Google’s voice input window opens on the home screen (see below). On phones such as Tecno or Infinix, updating the <strong>Google</strong> and <strong>Speech Services by Google</strong> apps from the Play Store often fixes it. Sending us the code in brackets helps us find the cause.</li>
+  <li>On some phones (e.g. Tecno) the phone's speech recognition service doesn't recognize the language. NoteRecord then opens Google's voice input window on the home screen automatically; what you say still becomes a note, list, appointment or call. On that phone, later taps (including the home screen widget) open the window directly. Live note-taking and two-way conversation can't use this window; on that phone they show the error message with its code.</li>
+  <li>If the microphone permission is missing, NoteRecord first shows a short explanation (<strong>Microphone permission needed</strong>), then Android's permission window. If “Don't ask again” was chosen, tap <strong>Open Settings</strong> in the window that appears and go to Permissions → Microphone → Allow. Android does not let an app grant itself a permission.</li>
+</ul>
+
+<h2>Ads and ad consent</h2>
+<ul>
+  <li>In the European Economic Area and the UK (where Google requires it), Google's ad consent form is shown on first launch. The <strong>Earn Credits</strong> ad loads only if consent is given; without consent, no credits are given for watching ads. If you have not given ad consent and no ad is available, you receive 3 free credits once per day when your credits run out. This gift is shared between online and offline use. Once today's gift is used, an "Ad permission not given" dialog offers three options: <strong>Change ad permission</strong> (opens Google's form), <strong>Become a supporter</strong> (one-time, ad-free pack) and <strong>Cancel</strong>. If consent information could not be loaded, the consent form is offered again at most once per app session. Emergency calls and your saved notes are always available.</li>
+  <li>In a rewarded ad, Google sometimes shows several short ads in a row. The credits are usually earned within 30 seconds: the phone vibrates briefly and an <strong>X</strong> appears in a top corner of the screen; tapping it closes the ad. The back button does not work during the ad. When the credits are earned, the phone vibrates and says “Reward earned, you can close the ad.” (if voice replies are <strong>Off</strong>, only the vibration); the sound stops when the thank-you window is closed. The “Reward earned” text and the X on the ad screen belong to Google. If you close the ad early, no credits are given. When the ad closes, a “Thank you, N credits earned.” window appears and is read aloud. Most ads show the remaining time in a corner; the ad screen belongs to Google, so NoteRecord cannot add its own progress bar there. The window before the ad explains this briefly.</li>
+  <li>Emergency calls are never blocked. Nothing changes outside these regions or for Supporters. If your consent status is unknown (for example, first launch while offline), the app works as before.</li>
+  <li>To change your choice, use <strong>⋮ → Settings → Ad privacy options</strong>. This option appears only where consent is required.</li>
+</ul>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Microphone:</strong> needed for voice commands. It listens only while the app is on screen.</li>
+  <li><strong>Contacts and phone:</strong> used only for commands like “Call Mom” and in an emergency. Contacts are read on your phone and never sent anywhere.</li>
+  <li><strong>Location:</strong> used only by the emergency feature for the address and coordinates.</li>
+  <li><strong>Notifications and alarms:</strong> needed for appointment reminders. If reminders don’t arrive, turn on notifications and the “Alarms &amp; reminders” permission for NoteRecord in Android settings.</li>
+  <li>If you denied a permission, you can grant it under Android <strong>Settings → Apps → NoteRecord → Permissions</strong>.</li>
+</ul>
+
+<h2>Where the internet is needed</h2>
+<p>Notes, lists, the calendar and translation (once the language pack is downloaded) work on your phone. The internet is needed when you download a language pack for the first time; when your phone’s speech recognition turns speech into text without an offline voice pack (a Google service); for the <strong>Earn Credits</strong> ad; and when you buy or restore a Supporter pack. See <em>Language packs and offline translation</em> for details.</p>
+
+<h2>Common problems</h2>
+<ul>
+  <li><strong>Speech is not recognized:</strong> check the internet, the microphone permission, and whether another app is using the microphone. If the language isn’t recognized, Google’s voice input window opens on the home screen.</li>
+  <li><strong>A language pack won’t download:</strong> connect to Wi-Fi or turn off <strong>Download over Wi-Fi only</strong> in Language packs, then try again. If you start a download without internet, the app tells you; the pack downloads by itself once you are connected.</li>
+  <li><strong>Reminders don’t arrive:</strong> turn on notifications and the “Alarms &amp; reminders” permission; on Samsung choose Battery → Unrestricted.</li>
+  <li><strong>Meeting mode doesn’t work:</strong> some phones don’t support it; the app says so and uses normal listening.</li>
+</ul>
+
+<h2>Privacy</h2>
+<p>Translation happens on the phone; translated text is not sent to any server. No audio is
+stored. Inform participants before transcribing other people’s speech. See the
+<a href="../gizlilik-politikasi.html#en">Privacy policy</a> for details, and the <a href="../kullanim-kosullari.html#en">Terms of use</a> for the conditions of the service.</p>
+
+<h2>Deleting your data</h2>
+<p>Your notes exist only on your phone; there is no account or server. You can delete notes one by one. <strong>⋮ → Settings → General settings → Delete all data</strong> deletes notes, lists, appointments, recordings, settings, personal words and emergency details and cancels scheduled reminders; your remaining credits and Supporter pack are kept. After a two-step confirmation the app closes and starts empty when you open it again. Events added to your phone’s own calendar stay on the phone. To reset the app completely, uninstall it or go to Android <strong>Settings → Apps → NoteRecord → Storage → Clear data</strong>; this removes your notes, settings and downloaded language packs. Before deleting, make a backup with <strong>⋮ → Notes and backup → Export notes</strong>. If Android’s Google backup is on, the copy in your Google account is managed by Google separately. A Supporter pack comes back from Google Play with <strong>Restore purchases</strong>. Details are in the privacy policy.</p>
+
+<h2>Contact</h2>
+<p>For questions, suggestions and bug reports:<br>
+Email: <a href="mailto:ioktay@yahoo.com">ioktay@yahoo.com</a><br>
+Website: <a href="https://noterecord.github.io">noterecord.github.io</a></p>
+
+</main>
+</body>
+</html>
