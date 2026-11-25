@@ -96,7 +96,7 @@
   <li><strong>Adding something shared with you:</strong> When a list or note is shared from another app (e.g. WhatsApp), pick the NoteRecord entry in the share menu (it is labelled “Add to NoteRecord”). Or copy the message and tap <strong>⋮ → Notes and backup → Add copied list</strong> in NoteRecord. What will be added (a new list, items for an existing list, an appointment or a note) is shown and you are asked <strong>Add to NoteRecord?</strong>; tap <strong>Add</strong> to add it or <strong>Cancel</strong> to drop it.</li>
   <li><strong>Returning to the ⋮ menu:</strong> When you go back from a screen opened from the ⋮ menu, the menu opens again: the sub-menu (e.g. Settings) if you came from there, otherwise the main menu. Returning from live notes or conversation does not reopen the menu; the new note is shown in the list.</li>
   <li><strong>Note Flight game:</strong> <strong>Note Flight game</strong> in the ⋮ menu is a small game; tap the screen to fly the note between the pencils. It uses no credits.</li>
-  <li><strong>Help and documents:</strong> <strong>Help and documents</strong> in the ⋮ menu opens this user guide and the privacy policy. The app version is shown at the very bottom of the screen (e.g. “Version 1.0.0 (36)”).</li>
+  <li><strong>Help and documents:</strong> <strong>Help and documents</strong> in the ⋮ menu opens this user guide and the privacy policy. The app version is shown at the very bottom of the screen (e.g. “Version 1.0.0 (37)”).</li>
 </ul>
 
 <h2>Saying the command explicitly: “Take a note”, “Create an appointment”</h2>
@@ -246,7 +246,7 @@ NoteRecord works offline.
 </ul>
 
 <h2>General settings</h2>
-<p><strong>Quick settings:</strong> Tap the sliders icon in the home screen’s top bar. The panel that opens from the bottom changes <strong>Listening environment</strong>, <strong>Meeting room voice boost</strong> (when Meeting room is selected), <strong>Voice replies</strong> and <strong>Reminder sound</strong> with one tap; <strong>General settings</strong> opens this screen and <strong>Close</strong> closes the panel. While meeting mode is on, the home screen shows a “Meeting mode on · Automatic” label; tap it to open the panel.</p>
+<p><strong>Quick settings:</strong> Tap the sliders icon in the home screen’s top bar. The panel that opens from the bottom changes <strong>Listening environment</strong>, <strong>Meeting room voice boost</strong> (when Meeting room is selected), <strong>Voice replies</strong> and <strong>Reminder sound</strong> with one tap; <strong>Settings</strong> opens the <strong>⋮ → Settings</strong> menu (<strong>← Settings</strong> at its top returns to the main menu) and <strong>Close</strong> closes the panel. While meeting mode is on, the home screen shows a “Meeting mode on · Automatic” label; tap it to open the panel.</p>
 <p>The <strong>⋮ → Settings → General settings</strong> screen contains:</p>
 <ul>
   <li><strong>Voice replies:</strong> <strong>On</strong> (default) reads the full sentence; <strong>Short</strong> says a short phrase such as “Saved.”; <strong>Off</strong> says nothing and the text stays on screen. Emergency, warnings (credits used up, no internet, etc.) and <strong>Read aloud</strong> are always spoken.</li>
@@ -264,9 +264,15 @@ NoteRecord works offline.
   <li><strong>Long speech:</strong> long unpunctuated speech is split before translation only at natural points (but, because, otherwise…); if there is none, the sentence is translated as a whole. Translations are joined with full stops and capital letters, and words repeated back to back are removed. In live note-taking the app adds the punctuation itself (see Automatic punctuation); in Turkish, Google speech recognition does not add punctuation on its own. In meeting mode (Android 13+) your phone’s speech recognition may add punctuation too, if it supports it. For better translations, pause briefly between sentences; on-device translation has limits with long, formal sentences.</li>
 </ul>
 
+<h2>Updates</h2>
+<ul>
+  <li>When a new version of NoteRecord is out on Google Play, opening the app shows <strong>“A new version of NoteRecord is ready.”</strong> at the bottom of the screen with an <strong>Update</strong> button. The update downloads in the background while you keep using the app.</li>
+  <li>When the download finishes, tap <strong>Restart</strong>; the app reopens with the new version in a few seconds. Your notes and settings are kept. If you close the bar, you are asked again the next time you open the app.</li>
+</ul>
+
 <h2>Backing up your notes</h2>
 <ul>
-  <li><strong>Automatic:</strong> if Google backup is on on your phone, Android backs up your NoteRecord notes and other settings to your Google account and restores them on a new phone. <strong>Emergency details</strong> (close contact name and number, home address, and whether the emergency feature is on or off) are <strong>not included</strong> in this automatic backup or in phone-to-phone transfer. After moving to a new phone, enter your close contact and home address again in <strong>⋮ → Settings → Emergency</strong> (or restore them from a manual backup below).</li>
+  <li><strong>Automatic:</strong> if Google backup is on on your phone, Android backs up your NoteRecord notes and other settings to your Google account and restores them on a new phone or when you reinstall the app. In that case, on first launch the <strong>Restored from backup</strong> window tells you how many notes came back and asks: <strong>Use them</strong> keeps them; <strong>Delete and start fresh</strong> deletes the notes and settings (remaining credits and Supporter pack are kept), closes the app, and you can then load your own backup file with <strong>Import notes</strong>. <strong>Emergency details</strong> (close contact name and number, home address, and whether the emergency feature is on or off) are <strong>not included</strong> in this automatic backup or in phone-to-phone transfer. After moving to a new phone, enter your close contact and home address again in <strong>⋮ → Settings → Emergency</strong> (or restore them from a manual backup below).</li>
   <li><strong>Manual:</strong> <strong>⋮ → Notes and backup → Export notes</strong> creates a backup file; send it to Google Drive or by email from the share menu. This file also contains your close contact's name and number and your home address (but never the on/off setting of the emergency feature), so send it only to places you trust.</li>
   <li><strong>Restore:</strong> pick the file with <strong>⋮ → Notes and backup → Import notes</strong>. Only notes that aren’t on the phone yet are added; your existing notes are kept, and importing the same file twice doesn’t duplicate anything.</li>
   <li>If the backup contains emergency details, a separate window (<strong>Emergency details</strong>) shows the close contact, number and home address and asks <strong>Use them?</strong> They are saved only if you tap <strong>Use</strong>; with <strong>Don't use</strong> nothing on the phone changes. If the phone number in the backup is not valid, it is not imported and you are told. A backup <strong>never turns the emergency feature on</strong>; it stays as it is, and you turn it on in <strong>Settings → Emergency</strong>.</li>
@@ -276,8 +282,8 @@ NoteRecord works offline.
 
 <h2>Usage credits and the Supporter pack</h2>
 <ul>
-  <li>When you first install the app, you get <strong>20 free credits</strong> as a gift.</li>
-  <li>Each voice command uses one credit. When credits run out, <strong>Earn Credits</strong> gives 5 credits for watching a short ad.</li>
+  <li>When you first install the app, you get <strong>20 free credits</strong> as a gift; the welcome window also tells you that you can optionally tap <strong>Earn Credits</strong> at the top of the screen to earn 5 more credits each time you watch an ad.</li>
+  <li>Each voice command uses one credit. When credits run out, <strong>Earn Credits</strong> gives 5 credits for watching a short ad. In the ad window, <strong>Become a Supporter for ad-free credits</strong> (below <strong>Cancel</strong> and <strong>Watch the ad</strong>) opens the Supporter packs.</li>
   <li>In live note-taking and two-way conversation, <strong>each saved conversation</strong> also uses one credit. When credits run out, new listening does not start; a recording already in progress is still saved.</li>
   <li><strong>⋮ → Become a supporter</strong> offers <strong>6-month, 1-year, 2-year and 3-year</strong> packs: unlimited use without a credit counter or ads for the chosen period. Each is a one-time payment and <strong>does not renew automatically</strong>. Buy a new pack before yours ends and the time is added on.</li>
   <li>After changing phones or reinstalling, tap <strong>Restore purchases</strong> with the same Google account. If you are a Supporter and reinstall the app, the welcome gift window and the ad consent form are not shown.</li>
